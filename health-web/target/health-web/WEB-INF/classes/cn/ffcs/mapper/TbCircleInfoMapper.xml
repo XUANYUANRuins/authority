@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ffcs.mapper.TbCircleMapper" >
+  <resultMap id="BaseResultMap" type="cn.ffcs.model.TbCircle" >
+    
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="reportid" property="reportid" jdbcType="INTEGER" />
+    <result column="centerx_left1" property="centerx_left1" jdbcType="DOUBLE" />
+    <result column="centery_left1" property="centery_left1" jdbcType="DOUBLE" />
+    <result column="radius_left1" property="radius_left1" jdbcType="DOUBLE" />
+    <result column="centerx_right1" property="centerx_right1" jdbcType="DOUBLE" />
+    <result column="centery_right1" property="centery_right1" jdbcType="DOUBLE" />
+    <result column="radius_right1" property="radius_right1" jdbcType="DOUBLE" />
+    
+    <result column="centerx_left2" property="centerx_left2"  jdbcType="DOUBLE" />
+    <result column="centery_left2" property="centery_left2" jdbcType="DOUBLE" />
+    <result column="radius_left2" property="radius_left2" jdbcType="DOUBLE" />
+    <result column="centerx_right2" property="centerx_right2" jdbcType="DOUBLE" />
+    <result column="centery_right2" property="centery_right2" jdbcType="DOUBLE" />
+    <result column="radius_right2" property="radius_right2" jdbcType="DOUBLE" />
+  </resultMap>
+</mapper>

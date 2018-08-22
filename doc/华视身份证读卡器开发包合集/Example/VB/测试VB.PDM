@@ -1,0 +1,206 @@
+[Root]
+Most Recent Package=身份证开发包V1.00
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\二代证\新版\SDT简易版\SDK\Example\安装
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+G:\二代证\新版\SDT简易版\SDK\Example\TERMB.DLL=
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+
+[Package|标准安装软件包 1|Files Added]
+G:\二代证\新版\SDT简易版\SDK\Example\WltRS.dll=
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+G:\二代证\新版\SDT简易版\SDK\Example\测试VB.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=Yes
+G:\二代证\新版\SDT简易版\SDK\Example\TERMB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\二代证\新版\SDT简易版\SDK\Example\WltRS.dll=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+G:\二代证\新版\SDT简易版\SDK\Example\测试VB.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+G:\二代证\新版\SDT简易版\SDK\Example\TERMB.DLL=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\二代证\新版\SDT简易版\SDK\Example\WltRS.dll=$(AppPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+G:\二代证\新版\SDT简易版\SDK\Example\测试VB.exe=No
+G:\二代证\新版\SDT简易版\SDK\Example\TERMB.DLL=No
+G:\二代证\新版\SDT简易版\SDK\Example\WltRS.dll=No
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=测试VB
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=测试VB
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|测试VB]
+Icon1=测试VB.exe
+Title1=测试VB
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=G:\二代证\新版\SDT简易版\SDK\Example\安装
+ProjectFolder=G:\二代证\新版\SDT简易版\SDK\Example
+ServerSideCab=
+File1=G:\二代证\新版\SDT简易版\SDK\Example\安装\setup.exe
+File2=G:\二代证\新版\SDT简易版\SDK\Example\安装\Setup.Lst
+File3=G:\二代证\新版\SDT简易版\SDK\Example\安装\测试VB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|身份证开发包V1.00|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\二代证\新版\USB开发包\Example\安装
+
+[Package|身份证开发包V1.00|Configure DAO ISAMs]
+Applicable=No
+
+[Package|身份证开发包V1.00|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|身份证开发包V1.00|Files Found]
+
+[Package|身份证开发包V1.00|Files Released]
+
+[Package|身份证开发包V1.00|Missing Dependency Information]
+G:\二代证\新版\USB开发包\Example\termb.dll=
+
+[Package|身份证开发包V1.00|Out-of-Date Dependency Information]
+
+[Package|身份证开发包V1.00|Files Added]
+G:\二代证\新版\USB开发包\Example\CVRApi.dll=
+G:\二代证\新版\USB开发包\Example\sdtapi.dll=
+G:\二代证\新版\USB开发包\Example\WltRS.dll=
+C:\termb.lic=
+
+[Package|身份证开发包V1.00|Files Removed]
+
+[Package|身份证开发包V1.00|Files In Project]
+G:\二代证\新版\USB开发包\Example\测试VB.exe=Yes
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\VB6CHS.DLL=Yes
+G:\二代证\新版\USB开发包\Example\termb.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\二代证\新版\USB开发包\Example\CVRApi.dll=Yes
+G:\二代证\新版\USB开发包\Example\sdtapi.dll=Yes
+G:\二代证\新版\USB开发包\Example\WltRS.dll=Yes
+C:\termb.lic=Yes
+
+[Package|身份证开发包V1.00|Configure Registry Files]
+Applicable=No
+
+[Package|身份证开发包V1.00|Configure Remote Servers]
+Applicable=No
+
+[Package|身份证开发包V1.00|Install Locations]
+G:\二代证\新版\USB开发包\Example\测试VB.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\VB6CHS.DLL=$(WinSysPath)
+G:\二代证\新版\USB开发包\Example\termb.dll=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\二代证\新版\USB开发包\Example\CVRApi.dll=$(AppPath)
+G:\二代证\新版\USB开发包\Example\sdtapi.dll=$(AppPath)
+G:\二代证\新版\USB开发包\Example\WltRS.dll=$(AppPath)
+C:\termb.lic=$(AppPath)
+
+[Package|身份证开发包V1.00|Configure Shared Files]
+Applicable=Yes
+G:\二代证\新版\USB开发包\Example\测试VB.exe=No
+G:\二代证\新版\USB开发包\Example\termb.dll=No
+G:\二代证\新版\USB开发包\Example\CVRApi.dll=No
+G:\二代证\新版\USB开发包\Example\sdtapi.dll=No
+G:\二代证\新版\USB开发包\Example\WltRS.dll=No
+C:\termb.lic=No
+
+[Package|身份证开发包V1.00|Distribution]
+Type=single
+Size=
+Title=华视电子身份证阅读器开发包V1.00
+
+[Package|身份证开发包V1.00|IconGroups]
+Group0=华视电子身份证阅读器开发包V1.00
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|身份证开发包V1.00|华视电子身份证阅读器开发包V1.00]
+Icon1=测试VB.exe
+Title1=华视电子身份证阅读器开发包V1.00
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|身份证开发包V1.00|Package]
+PackageFolder=G:\二代证\新版\USB开发包\Example\安装
+ProjectFolder=G:\二代证\新版\USB开发包\Example
+ServerSideCab=
+File1=G:\二代证\新版\USB开发包\Example\安装\setup.exe
+File2=G:\二代证\新版\USB开发包\Example\安装\Setup.Lst
+File3=G:\二代证\新版\USB开发包\Example\安装\测试VB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

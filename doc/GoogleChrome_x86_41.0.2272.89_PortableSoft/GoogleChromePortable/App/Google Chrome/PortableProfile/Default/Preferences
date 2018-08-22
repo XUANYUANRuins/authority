@@ -1,0 +1,166 @@
+{
+   "browser": {
+      "clear_lso_data_enabled": true,
+      "pepper_flash_settings_enabled": true,
+      "window_placement": {
+         "bottom": 744,
+         "left": 188,
+         "maximized": true,
+         "right": 1238,
+         "top": 36,
+         "work_area_bottom": 728,
+         "work_area_left": 0,
+         "work_area_right": 1366,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 17230,
+   "data_reduction": {
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "8069199", "2342534", "0", "0", "0", "0", "2461091" ],
+      "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "8069199", "2342534", "0", "0", "0", "0", "2461091" ],
+      "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "last_update_date": "13168886400000000",
+      "statistics_prefs_migrated": true
+   },
+   "default_apps_install_state": 2,
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://192.168.100.111:8090/", [ "http://192.168.100.111:8090/", 9.249742823999998, "http://fonts.gstatic.com/", 1.7184422639999999 ] ], [ "http://localhost:8090/", [ "http://fonts.gstatic.com/", 0.5968183312149239, "http://localhost:8090/", 6.0680689750901085 ] ], [ "http://www.baidu.com/", [ "https://www.baidu.com/", 1.967674022654115 ] ], [ "https://exp.bdstatic.com/", [ "https://exp.bdstatic.com/", 7.971602450752568 ] ], [ "https://fonts.googleapis.com/", [ "https://fonts.gstatic.com/", 1.967674022654115 ] ], [ "https://googleads.g.doubleclick.net/", [ "https://fonts.googleapis.com/", 1.967674022654115, "https://googleads.g.doubleclick.net/", 1.967674022654115, "https://tpc.googlesyndication.com/", 3.111279437530011 ] ], [ "https://jingyan.baidu.com/", [ "https://dup.baidustatic.com/", 1.967674022654115, "https://exp.bdstatic.com/", 18.264051184635623, "https://fex.bdstatic.com/", 2.2535753763730892, "https://himg.bdimg.com/", 1.967674022654115, "https://hm.baidu.com/", 2.5394767300920633, "https://imgsa.baidu.com/", 4.54078620612488, "https://jingyan.baidu.com/", 2.5394767300920633, "https://kstj.baidu.com/", 3.111279437530011, "https://pos.baidu.com/", 3.3971807912489846 ] ], [ "https://pos.baidu.com/", [ "https://cpro.baidustatic.com/", 2.11312229733564, "https://dup.baidustatic.com/", 0.12293615830057966, "https://eclick.baidu.com/", 0.1615888070973166, "https://f10.baidu.com/", 1.967674022654115, "https://f12.baidu.com/", 0.6185599156097442, "https://t10.baidu.com/", 1.967674022654115, "https://t11.baidu.com/", 0.6288535252823749, "https://ubmcmm.baidustatic.com/", 2.2535753763730892, "https://wn.pos.baidu.com/", 2.2535753763730892 ] ], [ "https://ss1.bdstatic.com/", [ "https://ss1.bdstatic.com/", 1.967674022654115 ] ], [ "https://static.gezila.com/", [ "https://static.gezila.com/", 3.3971807912489846 ] ], [ "https://www.baidu.com/", [ "https://sp0.baidu.com/", 10.544714634223332, "https://sp1.baidu.com/", 3.111279437530011, "https://sp2.baidu.com/", 1.967674022654115, "https://ss0.baidu.com/", 5.684391621000776, "https://ss0.bdstatic.com/", 2.5394767300920633, "https://ss1.baidu.com/", 3.111279437530011, "https://ss1.bdstatic.com/", 5.112588913562827, "https://ss2.baidu.com/", 3.111279437530011, "https://ss3.baidu.com/", 1.967674022654115, "https://www.baidu.com/", 10.830615987942307 ] ], [ "https://www.gezila.com/", [ "https://assets.changyan.sohu.com/", 1.967674022654115, "https://changyan.itc.cn/", 14.547333586288966, "https://changyan.sohu.com/", 7.113898389595645, "https://cnzz.mmstat.com/", 2.2535753763730892, "https://daima.dsxdn.com/", 3.111279437530011, "https://hm.baidu.com/", 1.967674022654115, "https://pos.baidu.com/", 3.3971807912489846, "https://static.gezila.com/", 6.827997035876671, "https://www.gezila.com/", 1.967674022654115, "https://z11.cnzz.com/", 1.967674022654115 ] ], [ "https://www.kafan.cn/", [ "https://a1.ikafan.com/", 3.111279437530011, "https://adservice.google.com/", 1.967674022654115, "https://c.cnzz.com/", 1.967674022654115, "https://googleads.g.doubleclick.net/", 2.2535753763730892, "https://kfwimg.ikafan.com/", 4.254884852405906, "https://pagead2.googlesyndication.com/", 2.8253780838110374, "https://pos.baidu.com/", 2.8253780838110374, "https://s13.cnzz.com/", 1.967674022654115, "https://www.kafan.cn/", 2.5394767300920633, "https://z7.cnzz.com/", 1.967674022654115 ] ] ],
+      "startup_list": [ 1, "http://192.168.100.111:8090/", "http://fonts.gstatic.com/", "https://clients1.google.com/", "https://clients2.google.com/", "https://www.google.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "enhanced_bookmarks_enabled": 0,
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "autoupdate": {
+         "last_check": "13168484442529721",
+         "next_check": "13168939582790664"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "last_chrome_version": "41.0.2272.89"
+   },
+   "http_original_content_length": "12872824",
+   "http_received_content_length": "12872824",
+   "intl": {
+      "accept_languages": "zh-CN,zh"
+   },
+   "invalidator": {
+      "client_id": "/2rqbgV844AcPIOwMBzKaw=="
+   },
+   "media": {
+      "device_id_salt": "rdafQGJmWZchqZ87L5LS8A=="
+   },
+   "net": {
+      "http_server_properties": {
+         "servers": {
+            "a1.ikafan.com:443": {
+               "supports_spdy": true
+            },
+            "assets.changyan.sohu.com:443": {
+               "supports_spdy": true
+            },
+            "changyan.itc.cn:443": {
+               "supports_spdy": true
+            },
+            "changyan.sohu.com:443": {
+               "supports_spdy": true
+            },
+            "cpro.baidustatic.com:443": {
+               "supports_spdy": true
+            },
+            "daima.dsxdn.com:443": {
+               "supports_spdy": true
+            },
+            "dup.baidustatic.com:443": {
+               "supports_spdy": true
+            },
+            "ss1.bdstatic.com:443": {
+               "supports_spdy": true
+            },
+            "ss2.baidu.com:443": {
+               "supports_spdy": true
+            },
+            "ss3.baidu.com:443": {
+               "supports_spdy": true
+            },
+            "t12.baidu.com:443": {
+               "supports_spdy": true
+            },
+            "ubmcmm.baidustatic.com:443": {
+               "supports_spdy": true
+            },
+            "zz.bdstatic.com:443": {
+               "supports_spdy": true
+            }
+         },
+         "version": 3
+      }
+   },
+   "partition": {
+      "per_host_zoom_levels": {
+         "2166136261": {
+            "192.168.100.111": -1.5778829311823859
+         }
+      }
+   },
+   "plugins": {
+      "migrated_to_pepper_flash": true,
+      "plugins_list": [  ],
+      "removed_old_component_pepper_flash_settings": true
+   },
+   "printing": {
+      "print_preview_sticky_settings": {
+         "appState": "{\"version\":2,\"isGcpPromoDismissed\":false,\"selectedDestinationId\":\"Kyocera KM-3060\",\"selectedDestinationOrigin\":\"local\",\"selectedDestinationAccount\":\"\",\"selectedDestinationCapabilities\":{\"printer\":{\"collate\":{},\"color\":{\"option\":[{\"is_default\":true,\"type\":\"STANDARD_MONOCHROME\",\"vendor_id\":\"1\"}]},\"copies\":{},\"dpi\":{\"option\":[{\"horizontal_dpi\":600,\"is_default\":true,\"vertical_dpi\":600},{\"horizontal_dpi\":300,\"vertical_dpi\":300}]},\"duplex\":{\"option\":[{\"is_default\":true,\"type\":\"NO_DUPLEX\"},{\"type\":\"LONG_EDGE\"},{\"type\":\"SHORT_EDGE\"}]},\"media_size\":{\"option\":[{\"custom_display_name\":\"信纸\",\"height_microns\":279400,\"name\":\"NA_LETTER\",\"vendor_id\":\"1\",\"width_microns\":215900},{\"custom_display_name\":\"法律专用纸\",\"height_microns\":355600,\"name\":\"NA_LEGAL\",\"vendor_id\":\"5\",\"width_microns\":215900},{\"custom_display_name\":\"Statement\",\"height_microns\":215900,\"name\":\"NA_INVOICE\",\"vendor_id\":\"6\",\"width_microns\":139700},{\"custom_display_name\":\"Executive\",\"height_microns\":266700,\"name\":\"NA_EXECUTIVE\",\"vendor_id\":\"7\",\"width_microns\":184100},{\"custom_display_name\":\"A3\",\"height_microns\":420000,\"name\":\"ISO_A3\",\"vendor_id\":\"8\",\"width_microns\":297000},{\"custom_display_name\":\"A4\",\"height_microns\":297000,\"is_default\":true,\"name\":\"ISO_A4\",\"vendor_id\":\"9\",\"width_microns\":210000},{\"custom_display_name\":\"A5\",\"height_microns\":210000,\"name\":\"ISO_A5\",\"vendor_id\":\"11\",\"width_microns\":148000},{\"custom_display_name\":\"B4 (JIS)\",\"height_microns\":364000,\"name\":\"JIS_B4\",\"vendor_id\":\"12\",\"width_microns\":257000},{\"custom_display_name\":\"B5 (JIS)\",\"height_microns\":257000,\"name\":\"JIS_B5\",\"vendor_id\":\"13\",\"width_microns\":182000},{\"custom_display_name\":\"Folio\",\"height_microns\":330200,\"name\":\"JIS_EXEC\",\"vendor_id\":\"14\",\"width_microns\":215900},{\"custom_display_name\":\"信封 #9\",\"height_microns\":225400,\"name\":\"NA_NUMBER_9\",\"vendor_id\":\"19\",\"width_microns\":98400},{\"custom_display_name\":\"信封 #10\",\"height_microns\":241300,\"name\":\"NA_NUMBER_10\",\"vendor_id\":\"20\",\"width_microns\":104700},{\"custom_display_name\":\"信封 DL\",\"height_microns\":220000,\"name\":\"ISO_DL\",\"vendor_id\":\"27\",\"width_microns\":110000},{\"custom_display_name\":\"信封 C5\",\"height_microns\":229000,\"name\":\"ISO_C5\",\"vendor_id\":\"28\",\"width_microns\":162000},{\"custom_display_name\":\"信封 C4\",\"height_microns\":324000,\"name\":\"ISO_C4\",\"vendor_id\":\"30\",\"width_microns\":229000},{\"custom_display_name\":\"信封 B5\",\"height_microns\":250000,\"name\":\"ISO_B5\",\"vendor_id\":\"34\",\"width_microns\":176000},{\"custom_display_name\":\"信封 Monarch\",\"height_microns\":190500,\"name\":\"NA_MONARCH\",\"vendor_id\":\"37\",\"width_microns\":98400},{\"custom_display_name\":\"6 3/4 信封\",\"height_microns\":165100,\"name\":\"NA_PERSONAL\",\"vendor_id\":\"38\",\"width_microns\":92000},{\"custom_display_name\":\"A6\",\"height_microns\":148000,\"name\":\"ISO_A6\",\"vendor_id\":\"70\",\"width_microns\":105000},{\"custom_display_name\":\"B6 (JIS)\",\"height_microns\":182000,\"name\":\"JIS_B6\",\"vendor_id\":\"88\",\"width_microns\":128000},{\"custom_display_name\":\"Ledger (11 x 17 inch)\",\"height_microns\":431800,\"name\":\"NA_LEDGER\",\"vendor_id\":\"119\",\"width_microns\":279400},{\"custom_display_name\":\"8K\",\"height_microns\":393700,\"name\":\"ROC_8K\",\"vendor_id\":\"121\",\"width_microns\":273000},{\"custom_display_name\":\"16K\",\"height_microns\":273000,\"name\":\"ROC_16K\",\"vendor_id\":\"122\",\"width_microns\":196800},{\"custom_display_name\":\"8.5 x 13.5\",\"height_microns\":342900,\"vendor_id\":\"123\",\"width_microns\":215900}]},\"page_orientation\":{\"option\":[{\"is_default\":true,\"type\":\"PORTRAIT\"},{\"type\":\"LANDSCAPE\"},{\"type\":\"AUTO\"}]},\"supported_content_type\":[{\"content_type\":\"application/pdf\"}]},\"version\":\"1.0\"},\"selectedDestinationName\":\"Kyocera KM-3060\",\"dpi\":{\"horizontal_dpi\":600,\"is_default\":true,\"vertical_dpi\":600},\"mediaSize\":{\"custom_display_name\":\"A4\",\"height_microns\":297000,\"is_default\":true,\"name\":\"ISO_A4\",\"vendor_id\":\"9\",\"width_microns\":210000},\"isHeaderFooterEnabled\":false,\"marginsType\":0,\"customMargins\":null,\"isLandscapeEnabled\":false}"
+      }
+   },
+   "profile": {
+      "avatar_index": 26,
+      "content_settings": {
+         "pattern_pairs": {
+            "[*.]localhost:8090,*": {
+               "plugins": 1
+            },
+            "file:///Program%20Files%20(x86)/%E5%8D%8E%E8%A7%86%E8%AF%BB%E5%8D%A1%E5%99%A8%E5%A4%9A%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/%E4%BA%BA%E8%A1%8C%E8%BA%AB%E4%BB%BD%E8%AF%81%E9%98%85%E8%AF%BB%E5%99%A8USB%E6%8E%A5%E5%85%A5%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2.html,*": {
+               "plugins": 1
+            }
+         },
+         "pref_version": 1
+      },
+      "created_by_version": "41.0.2272.89",
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "managed_user_id": "",
+      "name": "第 1 位用户",
+      "per_host_zoom_levels": {
+
+      }
+   },
+   "protection": {
+      "macs": {
+
+      }
+   },
+   "selectfile": {
+      "last_directory": "F:\\work\\项目\\依影健康"
+   },
+   "session": {
+      "restore_on_startup_migrated": true,
+      "startup_urls_migration_time": "13168426733321893"
+   },
+   "translate_blocked_languages": [ "zh", "zh-CN" ],
+   "translate_whitelists": {
+
+   }
+}
