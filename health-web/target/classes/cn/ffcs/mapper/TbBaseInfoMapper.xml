@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ffcs.mapper.TbBaseInfoMapper" >
+  <resultMap id="BaseResultMap" type="cn.ffcs.model.TbBaseInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="idcard" property="idcard" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="birthday" property="birthday" jdbcType="DATE" />
+    <result column="tel" property="tel" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="guardian" property="guardian" jdbcType="VARCHAR" />
+    <result column="guardianphone" property="guardianphone" jdbcType="VARCHAR" />
+    <result column="hospital" property="hospital" jdbcType="VARCHAR" />
+    <result column="doctor" property="doctor" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  	<sql id="consultation">
+  		b.id AS id,
+  		b.idcard AS idcard,
+  		b.name AS name,
+  		b.sex AS sex,
+  		b.birthday AS birthday,
+  		b.tel AS tel,
+  		b.address AS address,
+  		b.guardian AS guardian,
+  		b.guardianphone AS guardianphone,
+  		b.hospital AS hospital,
+  		b.doctor AS doctor,
+  		b.remark AS remark,
+  		r.status AS status,
+  		b.createtime AS createtime,
+  		b.createid AS createid,
+  		h.diabetes AS diabetes
+  		
+  	</sql>
+  	
+	<!-- 按条件查询 -->
+	<select id="selectListByArgs" resultType="cn.ffcs.pojo.Consultation">
+		SELECT 
+         <include refid="consultation" />
+        FROM tb_base_info b 
+        INNER JOIN tb_health_info h 
+        ON b.id = h.baseinfoid 
+        INNER JOIN tb_report r 
+        ON h.id = r.healthinfoid
+		WHERE 1=1 
+		<if test="createids != null and createids != ''">
+			AND b.createid in #{createids}
+		</if> 
+		<if test="name != null and name != ''">
+			AND b.name like #{name}
+		</if> 
+		<if test="diabetes != null and diabetes != ''">
+			AND h.diabetes = #{diabetes}
+		</if> 
+		<if test="status != null and status != ''">
+			AND r.status = #{status}
+		</if>
+		<if test="start_date != null and start_date != ''">
+			AND b.createtime &gt;= #{start_date}
+		</if>
+		<if test="end_date != null and end_date != ''">
+			AND b.createtime &lt;= #{end_date}
+		</if>
+		ORDER BY r.createtime DESC 
+	</select>
+	
+	<!-- 按条件查询 -->
+	<select id="selectListGroupByCardID" resultType="Map">
+		select t.idcard, count(t.idcard) as num from tb_base_info t
+		GROUP BY t.idcard
+	</select>
+  
+</mapper>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ffcs.mapper.TbHealthInfoMapper" >
+  <resultMap id="BaseResultMap" type="cn.ffcs.model.TbHealthInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="height" property="height" jdbcType="INTEGER" />
+    <result column="weight" property="weight" jdbcType="INTEGER" />
+    <result column="bmi" property="bmi" jdbcType="VARCHAR" />
+    <result column="waist" property="waist" jdbcType="VARCHAR" />
+    <result column="menopause" property="menopause" jdbcType="INTEGER" />
+    <result column="bloodpressure" property="bloodpressure" jdbcType="INTEGER" />
+    <result column="pressure" property="pressure" jdbcType="VARCHAR" />
+    <result column="state" property="state" jdbcType="INTEGER" />
+    <result column="labour" property="labour" jdbcType="INTEGER" />
+    <result column="fruit" property="fruit" jdbcType="INTEGER" />
+    <result column="drink" property="drink" jdbcType="INTEGER" />
+    <result column="diabetes" property="diabetes" jdbcType="INTEGER" />
+    <result column="diagnose1" property="diagnose1" jdbcType="DATE" />
+    <result column="relatives" property="relatives" jdbcType="INTEGER" />
+    <result column="glaucoma" property="glaucoma" jdbcType="INTEGER" />
+    <result column="diagnose2" property="diagnose2" jdbcType="DATE" />
+    <result column="hypertension" property="hypertension" jdbcType="INTEGER" />
+    <result column="diagnose3" property="diagnose3" jdbcType="DATE" />
+    <result column="cholesterol" property="cholesterol" jdbcType="INTEGER" />
+    <result column="medicine" property="medicine" jdbcType="INTEGER" />
+    <result column="symptom" property="symptom" jdbcType="VARCHAR" />
+    <result column="leftvision" property="leftvision" jdbcType="VARCHAR" />
+    <result column="rightvision" property="rightvision" jdbcType="VARCHAR" />
+    <result column="leftpic" property="leftpic" jdbcType="VARCHAR" />
+    <result column="rightpic" property="rightpic" jdbcType="VARCHAR" />
+    <result column="leftaid" property="leftaid" jdbcType="VARCHAR" />
+    <result column="rightaid" property="rightaid" jdbcType="VARCHAR" />
+    <result column="baseinfoid" property="baseinfoid" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

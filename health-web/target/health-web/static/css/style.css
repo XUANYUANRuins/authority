@@ -1,0 +1,10 @@
+.bootbox {
+    display: table;
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bootbox .modal-dialog {
+    display: table-cell;
+    vertical-align: middle;
+}

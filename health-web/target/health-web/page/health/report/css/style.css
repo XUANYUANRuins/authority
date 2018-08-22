@@ -1,0 +1,352 @@
+html,
+body {
+	background: -webkit-linear-gradient(#ecf0f1, #fff 180px);
+	background: -moz-linear-gradient(#ecf0f1, #fff 180px);
+	background: -ms-linear-gradient(#ecf0f1, #fff 180px);
+	background: -o-linear-gradient(#ecf0f1, #fff 180px);
+	background: linear-gradient(#ecf0f1, #fff 180px);
+}
+
+a,
+a:hover,
+a:focus {
+	color: #0095ff;
+}
+
+.text-overflow {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 730px !important;
+	}
+}
+
+.examples {
+	margin-top: 40px;
+}
+
+.examples .row {
+	margin-bottom: 20px;
+}
+
+.examples .col-md-3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.example img {
+	width: 100%;
+}
+
+.checkbox-custom {
+	position: relative;
+	padding: 0 0 0 25px;
+	margin-bottom: 7px;
+	margin-top: 0;
+}
+
+
+/*
+将初始的checkbox的样式改变
+*/
+
+.checkbox-custom input[type="checkbox"] {
+	opacity: 0;
+	/*将初始的checkbox隐藏起来*/
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+	margin: -6px 0 0 0;
+	top: 50%;
+	left: 3px;
+}
+
+
+/*
+设计新的checkbox，位置
+*/
+
+.checkbox-custom label:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -9px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 2px;
+	border: 1px solid #bbb;
+	background: #fff;
+}
+
+
+/*
+点击初始的checkbox，将新的checkbox关联起来
+*/
+
+.checkbox-custom input[type="checkbox"]:checked+label:after {
+	position: absolute;
+	display: inline-block;
+	font-family: 'FontAwesome';
+	content: '\F00C';
+	top: 50%;
+	left: 4px;
+	margin-top: -5px;
+	font-size: 11px;
+	line-height: 1;
+	width: 16px;
+	height: 16px;
+	color: #333;
+}
+
+.checkbox-custom label {
+	cursor: pointer;
+	line-height: 1.2;
+	font-weight: normal;
+	/*改变了rememberme的字体*/
+	margin-bottom: 0;
+	text-align: left;
+}
+
+div.menu ul {
+	list-style: none;
+	/* 去掉ul前面的符号 */
+	width: auto;
+	/* 宽度根据元素内容调整 */
+}
+
+
+/* 所有class为menu的div中的ul中的li样式 */
+
+div.menu ul li {
+	width: 30%;
+	float: left;
+	/* 向左漂移，将竖排变为横排 */
+	margin-top: 10px;
+	/* 与外界元素的距离为0 */
+}
+
+.div_border table,
+table tr th,
+table tr td {
+	border: 1px solid #E0E0E0;
+}
+
+.table_title {
+	font-size: 16px;
+	font-weight: bold;
+	width: 15em;
+	padding: 10px;
+	float: left;
+	overflow: hidden;
+	color: #007bff;
+	text-align: left;
+}
+
+.table_nav {
+	font-size: 14px;
+	font-weight: bold;
+	width: 15em;
+	padding: 10px;
+	float: left;
+	overflow: hidden;
+	text-align: left;
+	color: #000000;
+}
+
+.menul-li {
+	padding-right: 50px;
+}
+
+.menul-li ul {
+	list-style: none;
+	/* 去掉ul前面的符号 */
+	width: 100%;
+	/* 宽度根据元素内容调整 */
+}
+
+
+/* 所有class为menu的div中的ul中的li样式 */
+
+.menul-li ul li {
+	height: 30px;
+	line-height: 20px;
+	white-space: nowrap;
+	display: block;
+	float: left;
+	min-width: 50%;
+	width: expression(document.body.clientWidth>50%?"50%":"100%");
+}
+
+.menul-li ul li input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+.menul-li ul li label {
+	padding-top: 8px;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+.div_border {
+	border: 1px solid #E0E0E0;
+}
+
+.div_border2 {
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.div_border3 {
+	border-style: dashed border: 2px solid #E0E0E0;
+}
+
+
+/*设置滚动条*/
+
+.div_overflow {
+	width: 60%;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.div_li_nav {
+	padding-left: 22px;
+}
+
+.align-center {
+	display: -moz-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display: -webkit-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+}
+
+.box {
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.box:before {
+	content: "";
+	width: 0;
+	height: 100%;
+	background: #000;
+	padding: 14px 18px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	opacity: 0;
+	transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+}
+
+.box:hover:before {
+	width: 100%;
+	left: 0;
+	opacity: 0.5;
+}
+
+.box img {
+	height: auto;
+}
+
+.box .box-content {
+	width: 100%;
+	padding: 14px 18px;
+	color: #fff;
+	position: absolute;
+	top: 38%;
+	left: 0;
+}
+
+.box .title {
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 0;
+	opacity: 0;
+	transition: all 0.5s ease 0s;
+}
+
+.box .post {
+	font-size: 15px;
+	text-transform: capitalize;
+	opacity: 0;
+	transition: all 0.5s ease 0s;
+}
+
+.box:hover .title,
+.box:hover .post {
+	opacity: 1;
+	transition-delay: 0.7s;
+}
+
+.box .icon {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-top: 15px;
+}
+
+.box .icon li {
+	display: inline-block;
+}
+
+.box .icon li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	background: #f74e55;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	margin-right: 5px;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 0.5s ease 0s;
+}
+
+.box:hover .icon li a {
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.5s;
+	text-decoration: none;
+}
+
+.box:hover .icon li:last-child a {
+	transition-delay: 0.8s;
+}
+
+.box:visited .icon li a {
+	text-decoration: none;
+}
+
+.circle_sign {
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+
+.circle {
+	/*background-color: green;  
+ */
+	border: 1px solid red;
+	position: absolute;
+}
+
+.modal-width {
+	width: 540px;
+}
